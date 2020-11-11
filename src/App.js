@@ -14,7 +14,16 @@ import Modal from './components/Modal.js';
 const App = ()=> {
   return (
     <React.Fragment>
-      <Navbar /> 
+      <Navbar />
+
+      <div className="float-left">
+        <h4>
+          <span className="text-muted">
+            Author:
+          </span>
+          MD. Rasel Rana
+        </h4>
+      </div>
 
       <Switch>
         <Route exact path='/' component={ProductList} />
